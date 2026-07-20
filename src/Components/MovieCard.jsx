@@ -1,9 +1,11 @@
 import React from 'react'
 
-function MovieCard() {
+function MovieCard({title}) {
   return (
-    <div>
-      
+    <div >
+      <h2>
+      {title}
+      </h2>
     </div>
   )
 }
