@@ -6,10 +6,12 @@ import { SearchProvider } from '../context/SearchContext'
 
 function Layout() {
   return (
-    <div>
+    <div className='min-h-screen flex flex-col'>
       <SearchProvider>
       <Navbar />
+      <main className='flex-1'>
       <Outlet />
+      </main>
       <Footer />
       </SearchProvider>
     </div>

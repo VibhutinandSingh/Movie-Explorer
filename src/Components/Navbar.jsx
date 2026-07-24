@@ -15,7 +15,7 @@ function Navbar() {
 
       <Link to="/about">
         <h1 className='text-white mt-4 hover:text-gray-300 transition-colors duration-200'>
-          About
+          ⭐About
         </h1>
       </Link>
     </nav>
